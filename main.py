@@ -4,18 +4,18 @@ import pandas as pd
 # Create a mock data frame for updates
 updates = pd.DataFrame({
     'version': ['1.0.0', '1.0.1', '1.1.0'],
-    'date': ['2023-04-01', '2023-04-15', '2023-05-01'],
+    'date': ['2023-05-06', '2023-05-13', '2023-05-20'],
     'description': [
         'Initial release',
         'Bug fixes and performance improvements',
-        'Added new feature X'
+        'Added new commands and final release'
     ],
     'upvotes': [10, 5, 2],
     'downvotes': [2, 1, 0],
     'reviews': [
         ['Great bot!', 'Could use some more features.'],
-        ['Faster than before!'],
-        []
+        ['Faster than before!', 'User interface needs to be imporved.'],
+        ['Usability has improved significantly', 'Minor bugs were removed.']
     ]
 })
 
